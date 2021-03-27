@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Prepare | Tranquil Travel</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="prepare.css">
+        <link rel="stylesheet" href="single-location.css">
+    </head>
+
+    <body>
+
+    <!--navigation section-->
+
+      <nav class="anavbar">
+        <div class="logo">
+            <h4>Tranquil Travel</h4>
+        </div>
+        <ul class="anav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="locations.html">LOCATIONS</a></li>
+            <li><a href="prepare.html">PREPARE</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+      </nav>
+
+      <h2  class="x">x</h2>
+
+
+    <!--weather API section-->
+
+    <div class="weather">     
+        <h2 class="txt-center h1">FIND THE WEATHER AT YOUR LOCATION</h2>
+        <input type="text" id="searchUser" placeholder="Location">    
+        <button id="submit">Search </i> </button>      
+        </div>
+        <div id="content">
+    </div>
+
+    <!--todo list section-->
+ 
+    <section class="my-todo">
+    <h2 class="txt-center h1">LIST DOWN ALL THE ITEMS YOU HAVE TO TAKE WITH YOU</h2>
+        <form>
+        <input type="text" class="todo-input">
+        <button class="todo-button" type="submit">
+        <i class="fas fa-plus-square"></i>
+        </button>  
+        </form>
+        <div class="todo-container">
+        <ul class="todo-list">
+        </ul>
+        </div>
+    </section>
+
+         <script src="prepare.js"></script>
+         <script src="script.js"></script>
+    </body>
+</html>
+
+
+
